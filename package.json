@@ -2,7 +2,8 @@
   "name": "@vs-acode/gh-dir",
   "version": "0.1.0",
   "description": "Download Github Directory",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "bin": "dist/bin/gh-dir.js",
   "type": "module",
   "author": "alMukaafih <almukaafih@gmail.com>",
   "license": "MIT",
@@ -13,9 +14,11 @@
     "jszip": "^3.10.1",
     "list-github-dir-content": "^4.0.2",
     "p-map": "^7.0.2",
-    "p-retry": "^6.2.0"
+    "p-retry": "^6.2.0",
+    "ziyy": "^2.0.0-beta.1"
   },
   "devDependencies": {
+    "@types/node": "v20",
     "typescript": "^5.5.4"
   }
 }

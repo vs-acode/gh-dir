@@ -5,10 +5,12 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@sindresorhus/tsconfig@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@sindresorhus/tsconfig@npm:6.0.0"
-  checksum: 10c0/6415baef134168481fdc0ecec1120962cf292839c006a9635134e49f274c62c583bef749a5864da49226192280bd43684f996459dba997c3d209a803b339834f
+"@types/node@npm:v20":
+  version: 20.16.2
+  resolution: "@types/node@npm:20.16.2"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/74fac185dbd2c6b301cde75747c1cd6c9ca1ad7266147ea107a798837f40b8a05991177ebd7925fc7450d51334096259d186afad6e0d22864b7c97f8afef6ba7
   languageName: node
   linkType: hard
 
@@ -23,12 +25,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@vs-acode/gh-dir@workspace:."
   dependencies:
-    "@sindresorhus/tsconfig": "npm:^6.0.0"
+    "@types/node": "npm:v20"
     jszip: "npm:^3.10.1"
     list-github-dir-content: "npm:^4.0.2"
     p-map: "npm:^7.0.2"
     p-retry: "npm:^6.2.0"
     typescript: "npm:^5.5.4"
+    ziyy: "npm:^2.0.0-beta.1"
+  bin:
+    gh-dir: dist/bin/gh-dir.js
   languageName: unknown
   linkType: soft
 
@@ -192,9 +197,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:~1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
+  languageName: node
+  linkType: hard
+
+"ziyy@npm:^2.0.0-beta.1":
+  version: 2.0.0-beta.1
+  resolution: "ziyy@npm:2.0.0-beta.1"
+  checksum: 10c0/4c5cbab8be16abbc846dfba2ff56dbf6d91ad0d256b818717ff7f8a9ddd635d40fffb93b1073df4a7e7d4b64a39a7b5b1fc2e5cb73e5eab1495622a3f2315280
   languageName: node
   linkType: hard

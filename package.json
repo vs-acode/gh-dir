@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "description": "Download Github Directory",
   "main": "dist/index.js",
-  "bin": "dist/bin/gh-dir.js",
+  "bin": {
+    "gh-dir": "dist/bin/gh-dir.js"
+  },
   "type": "module",
-  "author": "alMukaafih <almukaafih@gmail.com>",
+  "author": "alMukaafih <almukaafih@gmail",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vs-acode/gh-dir.git"
   },
   "dependencies": {
     "jszip": "^3.10.1",

@@ -1,0 +1,21 @@
+{
+  "name": "@vs-acode/gh-dir",
+  "version": "0.1.0",
+  "description": "Download Github Directory",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "alMukaafih <almukaafih@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "list-github-dir-content": "^4.0.2",
+    "p-map": "^7.0.2",
+    "p-retry": "^6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
